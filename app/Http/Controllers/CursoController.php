@@ -11,7 +11,7 @@ class CursoController extends Controller
      */
     public function index()
     {
-        return view("cursos.index");
+        return file_get_contents("http://pruebas.test");
     }
     /**
      * @return view la vista encontrada en ./resources/views/cursos/create.blade.php
